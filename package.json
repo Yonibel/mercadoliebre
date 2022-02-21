@@ -1,0 +1,23 @@
+{
+  "name": "mercado_liebre",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Yonibel/mercadoliebre.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Yonibel/mercadoliebre/issues"
+  },
+  "homepage": "https://github.com/Yonibel/mercadoliebre#readme",
+  "dependencies": {
+    "express": "^4.17.3"
+  }
+}

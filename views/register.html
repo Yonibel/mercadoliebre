@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mercado Liebre</title>
+    <link href="css/style.css" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+rel="stylesheet" />
+
+</head>
+<body>
+    <header class= "nav-header">
+            <div class="logo-register"> 
+                <img src="img/logo-mercado-liebre.svg" alt="Logo de MercadoLiebre">
+            </div>
+    </header>      
+    <main class="register">
+        <form action="/" method="POST">
+            <div class="form">
+                <h1 class="">Crea tu cuenta</h1>
+                    <div class="grupo">
+                        <input type="text" name="name" id="name" required><span class="barra"></span>
+                        <label for="">Nombre y Apellido</label>
+                    </div>
+                    <div class="grupo">
+                        <input type="text" name="name" id="name" required><span class="barra"></span>
+                        <label for="">Nombre de usuario</label>
+                    </div>
+                    <div class="grupo">
+                        <input type="email" name="email" id="name" required><span class="barra"></span>
+                        <label for="">Email</label>
+                    </div>
+                    <div class="grupo">
+                            <br>
+                            <h4>Fecha de nacimiento</h4></label>
+                            <br>
+                            <input type="date" name="birth_date" id="birth_date">
+                    </div>
+                    <div class="grupo">
+                        <input type="text" name="Domicilio" id="name" required><span class="barra"></span>
+                        <label for="">Domicilio</label>
+                    </div>
+                    <div class="grupo">
+                        <h4>Perfil del usuario</h4>
+                    </div>
+                            <div class="div-input">
+                            <input type="radio" name="perfil-usuario" id="comprador">
+                            <label for="comprador">Comprador</label>
+                            
+                            <input type="radio" name="perfil-usuario" id="vendedor">
+                            <label for="vendedor">Vendedor</label>
+                            </div>
+                    
+                    <div class="grupo">
+                        <h4>Intereses</h4>
+                            <div class="grupo">
+                                <input type="checkbox" name="interests" value="a" id="a">
+                                <label for="a">Electro</label>
+                            </div>
+                            <div class="grupo">
+                                <input type="checkbox" name="interests" value="b" id="b">
+                                <label for="b">Moda</label>
+                            </div>
+                            <div class="grupo">
+                                <input type="checkbox" name="interests" value="c" id="c">
+                            <label for="c">Hogar</label>
+                            </div>
+                            <div class="grupo">
+                                <input type="checkbox" name="interests" value="d" id="d">
+                                <label for="d">Juguetería</label>
+                            </div>
+                            <div class="grupo">
+                                <input type="checkbox" name="interests" value="e" id="e">
+                                <label for="e">Vida sana</label>
+                            </div>
+                        </div>
+                        <div class="grupo">
+                        <h4>Elegí tu foto de usuario</h4>
+                            <input type="file" name="avatar" id="name" required><span class="barra"></span>
+                        </div>
+
+                        <div class="grupo">
+                            <input type="password" name="pass" id="name" required><span class="barra"></span>
+                            <label for="">Elegí tu contraseña</label>
+                        </div>
+                        <div class="grupo">
+                            <input type="password" name="pass_confirm" id="name" required><span class="barra"></span>
+                            <label for="">Confirmá tu contraseña</label>
+                        </div>
+                    <div>
+                        <button class="enviar" type="submit">Enviar </button>
+                    </div>
+                    <div>
+                        <button class="borrar" type="submit">Borrar </button>
+                    </div>
+            
+        </div>
+        </form>
+    </main>
+
+    
+    <footer>
+    </footer>
+</body>
+</html>
